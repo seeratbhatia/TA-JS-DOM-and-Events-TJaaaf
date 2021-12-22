@@ -3,10 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TODO Application</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Forms validation 👇</title>
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h1>Create Account</h1>
+      </header>
+      <form >
+        <div class="form-control">
+          <label for="username">UserName:</label>
+          <input
+            id="Username"
+            type="text"
+            name="text"
+            placeholder="Enter your name"
+          />
+          <small>Email is not valid</small>
+        </div>
+        <div>
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+              />
+              <small></small>
+            </div>
+        <div class="form-control">
+          <label for="email">Your Email:</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="pass">Password</label>
+          <input
+          id="pass"
+           type="password"
+           name="password"
+           placeholder = "Enter your password"/>
+           <small></small>
+        </div>
+        <div class="form-control">
+          <label for="pass-check">Confirm Password</label>
+          <input
+          id="pass-check"
+          type="password"
+          name="password-check"
+          placeholder="Confirm Password"/>
+          <small></small>
+
+        </div>
     <script src="./script.js"></script>
   </body>
 </html>

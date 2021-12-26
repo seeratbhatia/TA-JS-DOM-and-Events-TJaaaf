@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 100px 0;
+  background: #6589F9;
+}
+.grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.card {
+  position: relative;
+  margin: 20px;
+}
+.card,.back,.front {
+  height: 200px;
+  width: 200px;
+}
+.back,.front {
+  position: absolute;
+}
+
+.front {
+
+  z-index: 2;
+  background: #FAB942 url('img/question.gif') no-repeat center center / contain;
+}
